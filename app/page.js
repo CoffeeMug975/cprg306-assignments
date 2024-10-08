@@ -11,7 +11,7 @@ export default function Home() {
         <uL class="grid grid-rows-4 grid-flow-col gap-4 px-2 text-center">
           <Link class={textStyles} href="./week-2/">Week 2</Link>
           <Link class={textStyles} href="./week-3/">Week 3</Link>
-          <div>01</div>
+          <Link class={textStyles} href="./week-4/">Week 4</Link>
           <div>01</div>
           <div>01</div>
           <div>01</div>
