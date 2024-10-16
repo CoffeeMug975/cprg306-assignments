@@ -65,9 +65,8 @@ export default function NewItem({ currentQuantity, incrementCountQuantity, decre
                     <select 
                         className="w-full p-3 text-black rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" 
                         value={category} 
-                        onChange={handleCategoryChange}
-                    >
-                        <option value="">Category</option>
+                        onChange={handleCategoryChange}>
+                        <option className="bg-gray-300" value="">Category</option>
                         <option value="produce">Produce</option>
                         <option value="dairy">Dairy</option>
                         <option value="bakery">Bakery</option>

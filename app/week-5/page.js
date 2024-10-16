@@ -27,7 +27,8 @@ export default function Interactivity() {
         };
     
     return (
-        <main className ="flex justify-center">
+        //className = "flex justify-center"             Delete Later
+        <main>
             <NewItem currentQuantity={quantity} incrementCountQuantity={incrementQuantity} decrementCountQuantity={decrementQuantity} resetQuantity={resetQuantity}/>
         </main>
     );

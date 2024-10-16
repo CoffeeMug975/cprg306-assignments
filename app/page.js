@@ -21,7 +21,6 @@ export default function Home() {
           <div>01</div>
           <div>01</div>
           <div>01</div>
-          <div>01</div>
         </uL>
         
     </main>
