@@ -1,7 +1,7 @@
 "use client"
 
 import ItemList from "./item-list";
-import Item from "./item-list";
+//import Item from "./item-list";
 
 export default function Page() {
     return(
