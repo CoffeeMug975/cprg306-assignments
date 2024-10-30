@@ -57,7 +57,7 @@ export default function NewItem({ onAddItem }) {
     };
 
     return (
-        <div className="flex justify-center items-center h-screen bg-gray-900">
+        <div className="flex justify-center items-center p-5">
             <form onSubmit={handleSubmit} className="bg-gray-800 p-8 rounded-lg shadow-md text-white">
                 {/* Inline CSS to remove number input arrows */}
                 <style jsx>{`
@@ -129,7 +129,7 @@ export default function NewItem({ onAddItem }) {
                         type="submit" 
                         className="w-full p-3 bg-blue-500 hover:bg-blue-600 rounded-lg text-white font-bold"
                     >
-                        Submit
+                        Add
                     </button>
                 </div>
             </form>

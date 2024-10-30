@@ -17,10 +17,11 @@ export default function ItemList({ items }) {
 
     return (
         <div>
-            <h2>Sort By:</h2>
+            
             
             {/* Sort Buttons */}
-            <div className="mb-4">
+            <div className="mb-4 flex justify-center">
+                <h2 className='p-3'>Sort By:</h2>
                 <button
                     className={`px-4 py-2 mr-2 ${sortBy === 'name' ? 'bg-blue-500 text-white' : 'bg-gray-200 text-black'}`}
                     onClick={() => setSortBy('name')}
@@ -33,7 +34,7 @@ export default function ItemList({ items }) {
                 >
                     Sort by Category
                 </button>
-            </div>
+        </div>
 
             {/* Render Sorted Items */}
             <ul className="w-full max-w-md mx-auto mt-4 bg-gray-500 shadow-md rounded-lg">
